@@ -2,7 +2,6 @@
 header { background: transparent; }</style></div><script>var NAV_OPEN = false;
 var navClass = document.querySelector('nav').classList;
 document.querySelector('.nav-box-icon').addEventListener('touchstart', function(e) {
-  console.log('a', NAV_OPEN, e.handled);
   if (NAV_OPEN) { navClass.remove('open'); } else { navClass.add('open'); } 
   NAV_OPEN = !NAV_OPEN;
   e.handled = true;
@@ -11,7 +10,6 @@ document.querySelector('.nav-box').addEventListener('touchstart', function(e) {
   e.handled = true;
 });
 document.addEventListener('touchstart', function(e) {
-  console.log('c', NAV_OPEN, e.handled);
   if (!e.handled && NAV_OPEN) {
     navClass.remove('open');
     NAV_OPEN = false;
