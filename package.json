@@ -1,0 +1,13 @@
+{
+  "name": "henrike-legner",
+  "version": "0.0.1",
+  "author": "Philipp Legner",
+  "scripts": {
+    "deploy": "grunt deploy"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-build-control": "^0.7.1",
+    "matchdep": "^1.0.1"
+  }
+}
