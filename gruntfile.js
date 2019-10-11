@@ -9,7 +9,7 @@ grunt.initConfig({
             push: true,
             force: true,
             message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%',
-            remote: 'git@github.com:plegner/henrikelegner.com.git'
+            remote: 'git@github.com:plegner/legner.com.git'
         }
     }}
 });
